@@ -22,6 +22,16 @@ A lightweight C implementation of a String Key-Value Hash Table using **open add
 
 ## Quick Start
 
+### Interactive GUI
+
+Launch the pop-out bucket visualizer with Python 3, Tkinter, and GCC installed:
+
+```bash
+python3 hash_table_gui.py
+```
+
+The window calls the C hash-table implementation directly. Insert, search, and delete operations show the two hash values, probe stride, bucket-by-bucket results, and the final bucket state. Use the playback controls to step through or animate an operation. The GUI builds its shared library in a temporary directory.
+
 ### Build & Run via Makefile
 
 ```bash
